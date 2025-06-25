@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="DialPadCollectionCell" reuseIdentifier="DialPadCollectionCell" id="gTV-IL-0wX" customClass="DialPadCollectionCell" customModule="SecondLine" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="202" height="158"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="202" height="158"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Jv-3y-Yy8" customClass="NumberPadButton" customModule="SecondLine" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="202" height="158"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="8Jv-3y-Yy8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="HWD-NV-kva"/>
+                <constraint firstAttribute="bottom" secondItem="8Jv-3y-Yy8" secondAttribute="bottom" id="Vrj-6d-jl5"/>
+                <constraint firstItem="8Jv-3y-Yy8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="d7R-q9-Ldj"/>
+                <constraint firstAttribute="trailing" secondItem="8Jv-3y-Yy8" secondAttribute="trailing" id="pBC-8c-eA9"/>
+            </constraints>
+            <size key="customSize" width="202" height="158"/>
+            <connections>
+                <outlet property="numberPadView" destination="8Jv-3y-Yy8" id="Ftk-Zs-J8L"/>
+            </connections>
+            <point key="canvasLocation" x="411" y="25"/>
+        </collectionViewCell>
+    </objects>
+</document>

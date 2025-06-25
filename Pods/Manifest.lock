@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (5.10.2)
+  - MenuItemKit (4.0.1)
+  - PhoneNumberKit (4.0.1):
+    - PhoneNumberKit/PhoneNumberKitCore (= 4.0.1)
+    - PhoneNumberKit/UIKit (= 4.0.1)
+  - PhoneNumberKit/PhoneNumberKitCore (4.0.1)
+  - PhoneNumberKit/UIKit (4.0.1):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - Reachability (3.7.6)
+  - Starscream (4.0.8)
+  - TelnyxRTC (2.0.0):
+    - Starscream (~> 4.0.8)
+    - WebRTC-lib (~> 124.0.0)
+  - TwilioVoice (6.13.1)
+  - WebRTC-lib (124.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - MenuItemKit
+  - PhoneNumberKit
+  - Reachability
+  - TelnyxRTC
+  - TwilioVoice
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - MenuItemKit
+    - PhoneNumberKit
+    - Reachability
+    - Starscream
+    - TelnyxRTC
+    - TwilioVoice
+    - WebRTC-lib
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  MenuItemKit: 1459920e984d823e1bcc858b7a964f94e6bfa0f6
+  PhoneNumberKit: a74155066daa6450475f6a029068eb919fb00d5d
+  Reachability: fd0ecd23705e2599e4cceeb943222ae02296cbc6
+  Starscream: 19b5533ddb925208db698f0ac508a100b884a1b9
+  TelnyxRTC: 5dc8424b84d6f03759875ce6a55c9881f8f2623b
+  TwilioVoice: ab8a3bb4fc566710d34e2aac627f97690d24d476
+  WebRTC-lib: 4afd321517808deb428933ab7ffeced4fc4fe745
+
+PODFILE CHECKSUM: 263452282f736171394d40a5e64bd92bc8d96b96
+
+COCOAPODS: 1.16.2
